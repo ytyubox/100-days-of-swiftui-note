@@ -9,8 +9,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // MARK: - Modal property
+    @State private var checkAmount = ""
+    @State private var numberOPerple = 2
+    @State private var tipPercentageIndex = 2
+    private let tipPercentages = [10, 15, 20, 25, 0]
+    
+    
     var body: some View {
-        Text("Hello World")
+       Form {
+            Section {
+                TextField("Amount", text: $checkAmount)
+                    .keyboardType(.decimalPad)
+            }
+
+            Section {
+                Text("$\(checkAmount)")
+            }
+        }
     }
 }
 

@@ -6,7 +6,7 @@ https://www.hackingwithswift.com/100/swiftui/16
 This project is a check-sharing app that calculates how to split a check based on the number of people and how much tip you want to leave. 
 
 
-## Part 1 
+## Part 1 - Day 16
 <details><summary>1. File structure</summary>
 <p>
 
@@ -38,3 +38,17 @@ Very often you’ll find that an error in your code stops Xcode’s canvas from 
 </details>
 
 key point: views are a function of their state.
+
+## Part 2 - Day 17 
+
+<details><summary>1. TextField be aware of pasting</summary>
+<p>
+
+doesn’t stop users from entering other values, like paste or hardware keyboard.
+```swift
+TextField(...).keyboardType(.decimalPad)
+```
+
+</p>
+</details>
+
