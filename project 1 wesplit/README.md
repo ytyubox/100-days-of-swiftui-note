@@ -20,6 +20,7 @@ This project is a check-sharing app that calculates how to split a check based o
 
 </p>
 </details>
+
 <details><summary> tips: Automatic preview updating paused </summary>
 <p>
 

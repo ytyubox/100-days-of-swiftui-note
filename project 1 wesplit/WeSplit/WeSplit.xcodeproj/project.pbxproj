@@ -14,6 +14,7 @@
 		9A8482DD2364189E00D912EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8482DC2364189E00D912EE /* Preview Assets.xcassets */; };
 		9A8482E02364189E00D912EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8482DE2364189E00D912EE /* LaunchScreen.storyboard */; };
 		9A8482E923641A1300D912EE /* BasicStructureOfSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8482E823641A1300D912EE /* BasicStructureOfSwiftUI.swift */; };
+		9A8482EB23641F2600D912EE /* CreatingAForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8482EA23641F2600D912EE /* CreatingAForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9A8482DF2364189E00D912EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A8482E12364189E00D912EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A8482E823641A1300D912EE /* BasicStructureOfSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicStructureOfSwiftUI.swift; sourceTree = "<group>"; };
+		9A8482EA23641F2600D912EE /* CreatingAForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingAForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				9A8482E823641A1300D912EE /* BasicStructureOfSwiftUI.swift */,
+				9A8482EA23641F2600D912EE /* CreatingAForm.swift */,
 			);
 			path = "practice file";
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				9A8482D42364189800D912EE /* AppDelegate.swift in Sources */,
 				9A8482D62364189800D912EE /* SceneDelegate.swift in Sources */,
+				9A8482EB23641F2600D912EE /* CreatingAForm.swift in Sources */,
 				9A8482D82364189800D912EE /* ContentView.swift in Sources */,
 				9A8482E923641A1300D912EE /* BasicStructureOfSwiftUI.swift in Sources */,
 			);
