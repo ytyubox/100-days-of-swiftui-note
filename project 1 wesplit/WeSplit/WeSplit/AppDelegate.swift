@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+///AppDelegate.swift contains code for managing your app.
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
