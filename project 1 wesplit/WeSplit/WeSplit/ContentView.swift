@@ -18,7 +18,6 @@ struct ContentView: View {
     // MARK: - Modal property
     @State private var checkAmount:String = ""
     @State private var numberofPeople:String = ""
-    //    @State private var numberOfPeople:Int = 2
     @State private var tipPercentageIndex:Int = 2
     private let tipPercentages:[Int] = [10, 15, 20, 25, 0]
     
@@ -38,10 +37,10 @@ struct ContentView: View {
     }
     
     var body: some View {
-        NavigationView { // make Froms didSelectedRowAt to push new page
+        NavigationView {
             Form {
                 Section {
-                    TextField("Amount", text: $checkAmount) 
+                    TextField("Amount", text: $checkAmount)
                         .keyboardType(.decimalPad)
                     TextField("Number of People", text: $numberofPeople)
                         .keyboardType(.numberPad)
