@@ -16,11 +16,21 @@ struct ContentView_Previews: PreviewProvider {
 struct ContentView: View {
     
     // MARK: - Modal property
-    @State private var checkAmount = ""
-    @State private var numberOfPeople = 2
-    @State private var tipPercentageIndex = 2
-    private let tipPercentages = [10, 15, 20, 25, 0]
-    
+    @State private var checkAmount:String = ""
+    @State private var numberOfPeople:Double = 2
+    @State private var tipPercentageIndex:Int = 2
+    private let tipPercentages:[Int] = [10, 15, 20, 25, 0]
+    private var totalPerPerson:Double {
+        let peopleCount = Double(numberOfPeople + 2)
+        let tipSelection = Double(tipPercentages[tipPercentageIndex])
+        let orderAmount = Double(checkAmount) ?? 0
+
+        let tipValue = orderAmount / 100 * tipSelection
+        let grandTotal = orderAmount + tipValue
+        let amountPerPerson = grandTotal / peopleCount
+
+        return amountPerPerson
+    }
     
     var body: some View {
         NavigationView { // make Froms didSelectedRowAt to push new page
@@ -43,7 +53,7 @@ struct ContentView: View {
                 }
                 
                 Section {
-                    Text("$\(checkAmount)")
+                    Text("$\(totalPerPerson, specifier: "%.2f")")
                 }
             }.navigationBarTitle("WeSplit")
         }

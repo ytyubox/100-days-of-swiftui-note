@@ -24,7 +24,6 @@ This project is a check-sharing app that calculates how to split a check based o
 <details><summary> 2.  tips: Automatic preview updating paused </summary>
 <p>
 
-Tip: 
 Very often you’ll find that an error in your code stops Xcode’s canvas from updating – you’ll see something like “Automatic preview updating paused”, and can press Resume to fix it. As you’ll be doing this a lot, let me recommend an important shortcut: `Option+Cmd+p` does the same as clicking Resume.
 
 </p>
@@ -52,3 +51,12 @@ TextField(...).keyboardType(.decimalPad)
 </p>
 </details>
 
+<details><summary>2. string with format</summary>
+<p>
+
+```swift
+"$\(1.111111, specifier: "%.2f")" // 1.11
+```
+
+</p>
+</details>
