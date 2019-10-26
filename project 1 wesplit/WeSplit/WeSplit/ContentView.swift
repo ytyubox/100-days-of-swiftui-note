@@ -17,32 +17,34 @@ struct ContentView: View {
     
     // MARK: - Modal property
     @State private var checkAmount:String = ""
-    @State private var numberOfPeople:Double = 2
+    @State private var numberofPeople:String = ""
+    //    @State private var numberOfPeople:Int = 2
     @State private var tipPercentageIndex:Int = 2
     private let tipPercentages:[Int] = [10, 15, 20, 25, 0]
+    
     private var totalPerPerson:Double {
-        let peopleCount = Double(numberOfPeople + 2)
+        guard let peopleCount = Double(numberofPeople) else {return 0}
+        let amountPerPerson = grandTotal / peopleCount
+        
+        return amountPerPerson
+    }
+    private var grandTotal:Double {
         let tipSelection = Double(tipPercentages[tipPercentageIndex])
         let orderAmount = Double(checkAmount) ?? 0
-
         let tipValue = orderAmount / 100 * tipSelection
         let grandTotal = orderAmount + tipValue
-        let amountPerPerson = grandTotal / peopleCount
-
-        return amountPerPerson
+        
+        return grandTotal
     }
     
     var body: some View {
         NavigationView { // make Froms didSelectedRowAt to push new page
             Form {
                 Section {
-                    TextField("Amount", text: $checkAmount)
+                    TextField("Amount", text: $checkAmount) 
                         .keyboardType(.decimalPad)
-                    Picker("Number of people", selection: $numberOfPeople) {
-                        ForEach(2 ..< 100) {
-                            Text("\($0) people")
-                        }
-                    }
+                    TextField("Number of People", text: $numberofPeople)
+                        .keyboardType(.numberPad)
                 }
                 Section(header: Text("How much tip do you want to leave?")) {
                     Picker("Tip percentage", selection: $tipPercentageIndex) {
@@ -52,8 +54,11 @@ struct ContentView: View {
                     }.pickerStyle(SegmentedPickerStyle())
                 }
                 
-                Section {
+                Section(header: Text("Amount per person")) {
                     Text("$\(totalPerPerson, specifier: "%.2f")")
+                }
+                Section(header: Text("Total amount")) {
+                    Text("$\(grandTotal, specifier: "%g")")
                 }
             }.navigationBarTitle("WeSplit")
         }

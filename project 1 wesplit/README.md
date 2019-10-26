@@ -60,3 +60,8 @@ TextField(...).keyboardType(.decimalPad)
 
 </p>
 </details>
+
+## Part 3 - Day 18 review
+
+### Challenge
+
