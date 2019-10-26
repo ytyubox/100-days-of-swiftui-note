@@ -19,6 +19,8 @@
 		A7DB100C2364323200132E3D /* StateAndButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB100B2364323200132E3D /* StateAndButton.swift */; };
 		A7DB100E2364364300132E3D /* BingingStateToUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB100D2364364300132E3D /* BingingStateToUI.swift */; };
 		A7DB10102364385B00132E3D /* BingingStateToUI.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7DB100F2364385B00132E3D /* BingingStateToUI.gif */; };
+		A7DB101223643E0400132E3D /* ForEachInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB101123643E0400132E3D /* ForEachInForm.swift */; };
+		A7DB101423643E9E00132E3D /* PickerWithLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB101323643E9E00132E3D /* PickerWithLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		A7DB100B2364323200132E3D /* StateAndButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndButton.swift; sourceTree = "<group>"; };
 		A7DB100D2364364300132E3D /* BingingStateToUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingingStateToUI.swift; sourceTree = "<group>"; };
 		A7DB100F2364385B00132E3D /* BingingStateToUI.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BingingStateToUI.gif; sourceTree = "<group>"; };
+		A7DB101123643E0400132E3D /* ForEachInForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachInForm.swift; sourceTree = "<group>"; };
+		A7DB101323643E9E00132E3D /* PickerWithLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWithLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				A7DB100B2364323200132E3D /* StateAndButton.swift */,
 				A7DB100D2364364300132E3D /* BingingStateToUI.swift */,
 				A7DB100F2364385B00132E3D /* BingingStateToUI.gif */,
+				A7DB101123643E0400132E3D /* ForEachInForm.swift */,
+				A7DB101323643E9E00132E3D /* PickerWithLabel.swift */,
 			);
 			path = "practice file";
 			sourceTree = "<group>";
@@ -179,6 +185,8 @@
 				9A8482D62364189800D912EE /* SceneDelegate.swift in Sources */,
 				9A8482EB23641F2600D912EE /* CreatingAForm.swift in Sources */,
 				9A8482D82364189800D912EE /* ContentView.swift in Sources */,
+				A7DB101223643E0400132E3D /* ForEachInForm.swift in Sources */,
+				A7DB101423643E9E00132E3D /* PickerWithLabel.swift in Sources */,
 				9A8482E923641A1300D912EE /* BasicStructureOfSwiftUI.swift in Sources */,
 				9A8482ED236422D900D912EE /* NavigationBar.swift in Sources */,
 			);
