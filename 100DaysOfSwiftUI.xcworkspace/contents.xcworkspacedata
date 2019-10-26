@@ -4,4 +4,14 @@
    <FileRef
       location = "group:README.md">
    </FileRef>
+   <Group
+      location = "container:"
+      name = "project 1 WeSplit">
+      <FileRef
+         location = "group:project 1 wesplit/README.md">
+      </FileRef>
+      <FileRef
+         location = "group:project 1 wesplit/WeSplit/WeSplit.xcodeproj">
+      </FileRef>
+   </Group>
 </Workspace>
