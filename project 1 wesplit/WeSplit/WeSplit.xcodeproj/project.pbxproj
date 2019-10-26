@@ -15,6 +15,7 @@
 		9A8482E02364189E00D912EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A8482DE2364189E00D912EE /* LaunchScreen.storyboard */; };
 		9A8482E923641A1300D912EE /* BasicStructureOfSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8482E823641A1300D912EE /* BasicStructureOfSwiftUI.swift */; };
 		9A8482EB23641F2600D912EE /* CreatingAForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8482EA23641F2600D912EE /* CreatingAForm.swift */; };
+		9A8482ED236422D900D912EE /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8482EC236422D900D912EE /* NavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9A8482E12364189E00D912EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A8482E823641A1300D912EE /* BasicStructureOfSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicStructureOfSwiftUI.swift; sourceTree = "<group>"; };
 		9A8482EA23641F2600D912EE /* CreatingAForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingAForm.swift; sourceTree = "<group>"; };
+		9A8482EC236422D900D912EE /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				9A8482E823641A1300D912EE /* BasicStructureOfSwiftUI.swift */,
 				9A8482EA23641F2600D912EE /* CreatingAForm.swift */,
+				9A8482EC236422D900D912EE /* NavigationBar.swift */,
 			);
 			path = "practice file";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				9A8482EB23641F2600D912EE /* CreatingAForm.swift in Sources */,
 				9A8482D82364189800D912EE /* ContentView.swift in Sources */,
 				9A8482E923641A1300D912EE /* BasicStructureOfSwiftUI.swift in Sources */,
+				9A8482ED236422D900D912EE /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
