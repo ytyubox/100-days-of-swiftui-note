@@ -21,7 +21,7 @@ This project is a check-sharing app that calculates how to split a check based o
 </p>
 </details>
 
-<details><summary> tips: Automatic preview updating paused </summary>
+<details><summary> 2.  tips: Automatic preview updating paused </summary>
 <p>
 
 Tip: 
@@ -29,3 +29,11 @@ Very often you’ll find that an error in your code stops Xcode’s canvas from 
 
 </p>
 </details>
+<details><summary>3. body mutate self? </summary>
+<p>
+
+`var body: some View {...}` can't mutate self, and the `View` protocol is limiting follower should be struct, therefore you must use `@State` or other to handle property  state change.
+
+</p>
+</details>
+
