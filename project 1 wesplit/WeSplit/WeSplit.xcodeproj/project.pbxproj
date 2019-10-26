@@ -17,6 +17,8 @@
 		9A8482EB23641F2600D912EE /* CreatingAForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8482EA23641F2600D912EE /* CreatingAForm.swift */; };
 		9A8482ED236422D900D912EE /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8482EC236422D900D912EE /* NavigationBar.swift */; };
 		A7DB100C2364323200132E3D /* StateAndButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB100B2364323200132E3D /* StateAndButton.swift */; };
+		A7DB100E2364364300132E3D /* BingingStateToUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DB100D2364364300132E3D /* BingingStateToUI.swift */; };
+		A7DB10102364385B00132E3D /* BingingStateToUI.gif in Resources */ = {isa = PBXBuildFile; fileRef = A7DB100F2364385B00132E3D /* BingingStateToUI.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		9A8482EA23641F2600D912EE /* CreatingAForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingAForm.swift; sourceTree = "<group>"; };
 		9A8482EC236422D900D912EE /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		A7DB100B2364323200132E3D /* StateAndButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndButton.swift; sourceTree = "<group>"; };
+		A7DB100D2364364300132E3D /* BingingStateToUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingingStateToUI.swift; sourceTree = "<group>"; };
+		A7DB100F2364385B00132E3D /* BingingStateToUI.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BingingStateToUI.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 				9A8482EA23641F2600D912EE /* CreatingAForm.swift */,
 				9A8482EC236422D900D912EE /* NavigationBar.swift */,
 				A7DB100B2364323200132E3D /* StateAndButton.swift */,
+				A7DB100D2364364300132E3D /* BingingStateToUI.swift */,
+				A7DB100F2364385B00132E3D /* BingingStateToUI.gif */,
 			);
 			path = "practice file";
 			sourceTree = "<group>";
@@ -153,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7DB10102364385B00132E3D /* BingingStateToUI.gif in Resources */,
 				9A8482E02364189E00D912EE /* LaunchScreen.storyboard in Resources */,
 				9A8482DD2364189E00D912EE /* Preview Assets.xcassets in Resources */,
 				9A8482DA2364189E00D912EE /* Assets.xcassets in Resources */,
@@ -167,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7DB100C2364323200132E3D /* StateAndButton.swift in Sources */,
+				A7DB100E2364364300132E3D /* BingingStateToUI.swift in Sources */,
 				9A8482D42364189800D912EE /* AppDelegate.swift in Sources */,
 				9A8482D62364189800D912EE /* SceneDelegate.swift in Sources */,
 				9A8482EB23641F2600D912EE /* CreatingAForm.swift in Sources */,

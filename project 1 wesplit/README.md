@@ -37,3 +37,4 @@ Very often you’ll find that an error in your code stops Xcode’s canvas from 
 </p>
 </details>
 
+key point: views are a function of their state.
