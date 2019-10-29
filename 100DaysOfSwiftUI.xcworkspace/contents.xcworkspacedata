@@ -16,6 +16,16 @@
    </Group>
    <Group
       location = "container:"
+      name = "project2guesstheflag">
+      <FileRef
+         location = "group:project2guesstheflag/README.md">
+      </FileRef>
+      <FileRef
+         location = "group:project2guesstheflag/GuessTheFlag/GuessTheFlag.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
       name = "Challenge1UnitConversions">
       <FileRef
          location = "group:Challenge1UnitConversions/UnitConversions.xcodeproj">
