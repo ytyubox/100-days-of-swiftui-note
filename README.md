@@ -32,3 +32,14 @@ Confused:
  
  </p>
  </details>
+
+<details><summary>Project 2: Guess the flag</summary>
+<p>
+
+Learned: 
+Confused: 
+1. Text in Stack, and it's frame is always try to fit smallest
+
+
+</p>
+</details>
