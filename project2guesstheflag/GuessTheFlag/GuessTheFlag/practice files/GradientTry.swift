@@ -20,7 +20,6 @@ struct GradientTry: View {
                            endRadius: 150)
             AngularGradient(gradient: Gradient(colors: [.red, .yellow, .green, .blue, .purple, .red]),
                             center: .center)
-            
         }
     }
 }

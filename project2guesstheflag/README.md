@@ -32,3 +32,20 @@ If your content is just decorative – like our background color here – then e
 </p>
 </details>
  
+ <details><summary>3. Image.init</summary>
+ <p>
+ 
+`Image("pencil")` will load an image called “Pencil” that you have added to your project.
+`Image(decorative: "pencil")` will load the same image, but won’t read it out for users who have enabled the screen reader. This is useful for images that don’t convey additional important information.
+`Image(systemName: "pencil")` will load the pencil icon that is built into iOS. This uses Apple’s SF Symbols icon collection, and you can search for icons you like – download Apple’s free SF Symbols app from the web to see the full set.
+ 
+ </p>
+ </details>
+
+<details><summary>4. Button Image</summary>
+<p>
+
+Tip: If you find that your images have become filled in with a color, for example showing as solid blue rather than your actual picture, this is probably SwiftUI coloring them to show that they are tappable. To fix the problem, use the renderingMode(.original) modifier to force SwiftUI to show the original image rather than the recolored version.
+
+</p>
+</details>
