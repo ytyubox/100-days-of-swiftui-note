@@ -11,7 +11,7 @@ Learned:
 Confused: 
 1. How to dismiss keyboard?
 
-![](project%201%20wesplit/WeSplit/WeSplit.gif)
+![](project1wesplit/WeSplit/WeSplit.gif)
 
 
 
