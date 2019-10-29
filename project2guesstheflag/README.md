@@ -22,5 +22,13 @@ ZStack draws its contents from top to bottom, back to front. This means if you h
 </p>
 </details>
 
+<details><summary>2. Color in safe area</summary>
+<p>
 
+It is critically important that no important content be placed outside the safe area, because it might be hard if not impossible for the user to see. Some views, such as List, allow content to scroll outside the safe area but then add extra insets so the user can scroll things into view.
+
+If your content is just decorative – like our background color here – then extending it outside the safe area is OK.
+
+</p>
+</details>
  
