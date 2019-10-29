@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A705C7E22368485E004F0B79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705C7E12368485E004F0B79 /* ContentView.swift */; };
+		A705C7E423684A12004F0B79 /* StackTry.swift in Sources */ = {isa = PBXBuildFile; fileRef = A705C7E323684A12004F0B79 /* StackTry.swift */; };
 		A73BEDDE236813EA001BC8FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEDDD236813EA001BC8FB /* AppDelegate.swift */; };
 		A73BEDE0236813EA001BC8FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEDDF236813EA001BC8FB /* SceneDelegate.swift */; };
-		A73BEDE2236813EA001BC8FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BEDE1236813EA001BC8FB /* ViewController.swift */; };
 		A73BEDE5236813EA001BC8FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73BEDE3236813EA001BC8FB /* Main.storyboard */; };
 		A73BEDE7236813EA001BC8FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73BEDE6236813EA001BC8FB /* Assets.xcassets */; };
 		A73BEDEA236813EA001BC8FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73BEDE8236813EA001BC8FB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A705C7E12368485E004F0B79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A705C7E323684A12004F0B79 /* StackTry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackTry.swift; sourceTree = "<group>"; };
 		A73BEDDA236813EA001BC8FB /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73BEDDD236813EA001BC8FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A73BEDDF236813EA001BC8FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A73BEDE1236813EA001BC8FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A73BEDE4236813EA001BC8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A73BEDE6236813EA001BC8FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A73BEDE9236813EA001BC8FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A705C7E523684A3C004F0B79 /* practice files */ = {
+			isa = PBXGroup;
+			children = (
+				A705C7E323684A12004F0B79 /* StackTry.swift */,
+			);
+			path = "practice files";
+			sourceTree = "<group>";
+		};
 		A73BEDD1236813EA001BC8FB = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +68,8 @@
 			children = (
 				A73BEDDD236813EA001BC8FB /* AppDelegate.swift */,
 				A73BEDDF236813EA001BC8FB /* SceneDelegate.swift */,
-				A73BEDE1236813EA001BC8FB /* ViewController.swift */,
+				A705C7E12368485E004F0B79 /* ContentView.swift */,
+				A705C7E523684A3C004F0B79 /* practice files */,
 				A73BEDE3236813EA001BC8FB /* Main.storyboard */,
 				A73BEDE6236813EA001BC8FB /* Assets.xcassets */,
 				A73BEDE8236813EA001BC8FB /* LaunchScreen.storyboard */,
@@ -138,8 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A73BEDE2236813EA001BC8FB /* ViewController.swift in Sources */,
 				A73BEDDE236813EA001BC8FB /* AppDelegate.swift in Sources */,
+				A705C7E22368485E004F0B79 /* ContentView.swift in Sources */,
+				A705C7E423684A12004F0B79 /* StackTry.swift in Sources */,
 				A73BEDE0236813EA001BC8FB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
