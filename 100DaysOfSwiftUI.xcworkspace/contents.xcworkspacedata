@@ -8,10 +8,20 @@
       location = "container:"
       name = "project 1 WeSplit">
       <FileRef
-         location = "group:project 1 wesplit/README.md">
+         location = "group:project1wesplit/README.md">
       </FileRef>
       <FileRef
-         location = "group:project 1 wesplit/WeSplit/WeSplit.xcodeproj">
+         location = "group:project1wesplit/WeSplit/WeSplit.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "project2guesstheflag">
+      <FileRef
+         location = "group:project2guesstheflag/README.md">
+      </FileRef>
+      <FileRef
+         location = "group:project2guesstheflag/GuessTheFlag/GuessTheFlag.xcodeproj">
       </FileRef>
    </Group>
    <Group
