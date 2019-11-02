@@ -36,10 +36,19 @@ Confused:
 <details><summary>Project 2: Guess the flag</summary>
 <p>
 
-Learned: 
+Learned:
+1. ZStack order is back to front 
+2. Background color extend to safe area
+3. SF Image by Image(systemName:)
+4. Image renderingMode to fix the look in the Button
+5. Alert by Bool 
+
 Confused: 
 1. Text in Stack, and it's frame is always try to fit smallest
 2. Text sometimes will be `"Somet..."`, for some String? 
+
+![](project2guesstheflag/GuessTheFlags.gif)
+
 </p>
 </details>
 

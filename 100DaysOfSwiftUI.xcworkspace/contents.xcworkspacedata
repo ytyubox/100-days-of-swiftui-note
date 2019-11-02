@@ -6,7 +6,7 @@
    </FileRef>
    <Group
       location = "container:"
-      name = "project 1 WeSplit">
+      name = "project1WeSplit">
       <FileRef
          location = "group:project1wesplit/README.md">
       </FileRef>
