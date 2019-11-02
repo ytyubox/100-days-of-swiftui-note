@@ -32,3 +32,15 @@ Confused:
  
  </p>
  </details>
+
+<details><summary>Project 2: Guess the flag</summary>
+<p>
+
+Learned: 
+Confused: 
+1. Text in Stack, and it's frame is always try to fit smallest
+2. Text sometimes will be `"Somet..."`, for some String? 
+</p>
+</details>
+
+
