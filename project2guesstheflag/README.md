@@ -51,4 +51,21 @@ Tip: If you find that your images have become filled in with a color, for exampl
 </details>
 ## Part 2: Day 21
 
+<details><summary>1. Alert by Bool</summary>
+<p>
+
+We show `alerts` by making their isPresented condition true.
+```swift
+$showingScore = true // trigger show alert 
+
+.alert(isPresented: $showingScore) {
+    Alert(title: Text(scoreTitle),
+          message: Text("Your score is \(score)"),
+          dismissButton: .cancel())
+}
+```
+
+</p>
+</details>
+
 
