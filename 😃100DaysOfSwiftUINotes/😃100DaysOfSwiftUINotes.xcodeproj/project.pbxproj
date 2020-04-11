@@ -47,6 +47,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A718EE282441BB4A000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE302441BBE4000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE352441BBE4000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE372441BBE4000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE392441BBE4000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE3B2441BBE4000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE3D2441BBE5000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE3F2441BBE5000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE412441BBE5000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE432441BBE5000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE452441BBE5000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE472441BBE5000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE492441BBE5000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE4B2441BBE5000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE4D2441BBE5000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE4F2441BBE5000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A718EE502441BC2A000A206F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A7533BB42441AF080065F777 /* 😃100DaysOfSwiftUINotes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "😃100DaysOfSwiftUINotes"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7533BB72441AF080065F777 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A7533BBF2441AF150065F777 /* GuessTheFlags.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = GuessTheFlags.gif; sourceTree = "<group>"; };
@@ -108,14 +125,165 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A718EE2F2441BBE4000A206F /* project 16 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE302441BBE4000A206F /* README.md */,
+			);
+			name = "project 16";
+			path = "../project 16";
+			sourceTree = "<group>";
+		};
+		A718EE342441BBE4000A206F /* project 14 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE352441BBE4000A206F /* README.md */,
+			);
+			name = "project 14";
+			path = "../project 14";
+			sourceTree = "<group>";
+		};
+		A718EE362441BBE4000A206F /* project 10 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE372441BBE4000A206F /* README.md */,
+			);
+			name = "project 10";
+			path = "../project 10";
+			sourceTree = "<group>";
+		};
+		A718EE382441BBE4000A206F /* project 12 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE392441BBE4000A206F /* README.md */,
+			);
+			name = "project 12";
+			path = "../project 12";
+			sourceTree = "<group>";
+		};
+		A718EE3A2441BBE4000A206F /* project 17 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE3B2441BBE4000A206F /* README.md */,
+			);
+			name = "project 17";
+			path = "../project 17";
+			sourceTree = "<group>";
+		};
+		A718EE3C2441BBE5000A206F /* project 13 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE3D2441BBE5000A206F /* README.md */,
+			);
+			name = "project 13";
+			path = "../project 13";
+			sourceTree = "<group>";
+		};
+		A718EE3E2441BBE5000A206F /* project 5 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE3F2441BBE5000A206F /* README.md */,
+			);
+			name = "project 5";
+			path = "../project 5";
+			sourceTree = "<group>";
+		};
+		A718EE402441BBE5000A206F /* project 6 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE412441BBE5000A206F /* README.md */,
+			);
+			name = "project 6";
+			path = "../project 6";
+			sourceTree = "<group>";
+		};
+		A718EE422441BBE5000A206F /* project 8 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE432441BBE5000A206F /* README.md */,
+			);
+			name = "project 8";
+			path = "../project 8";
+			sourceTree = "<group>";
+		};
+		A718EE442441BBE5000A206F /* project 19 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE452441BBE5000A206F /* README.md */,
+			);
+			name = "project 19";
+			path = "../project 19";
+			sourceTree = "<group>";
+		};
+		A718EE462441BBE5000A206F /* project 7 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE472441BBE5000A206F /* README.md */,
+			);
+			name = "project 7";
+			path = "../project 7";
+			sourceTree = "<group>";
+		};
+		A718EE482441BBE5000A206F /* project 18 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE492441BBE5000A206F /* README.md */,
+			);
+			name = "project 18";
+			path = "../project 18";
+			sourceTree = "<group>";
+		};
+		A718EE4A2441BBE5000A206F /* project 9 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE4B2441BBE5000A206F /* README.md */,
+			);
+			name = "project 9";
+			path = "../project 9";
+			sourceTree = "<group>";
+		};
+		A718EE4C2441BBE5000A206F /* project 11 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE4D2441BBE5000A206F /* README.md */,
+			);
+			name = "project 11";
+			path = "../project 11";
+			sourceTree = "<group>";
+		};
+		A718EE4E2441BBE5000A206F /* project 15 */ = {
+			isa = PBXGroup;
+			children = (
+				A718EE4F2441BBE5000A206F /* README.md */,
+			);
+			name = "project 15";
+			path = "../project 15";
+			sourceTree = "<group>";
+		};
 		A7533BAB2441AF080065F777 = {
 			isa = PBXGroup;
 			children = (
-				A7533BD72441AF150065F777 /* Challenge 1 UnitConversions */,
+				A718EE502441BC2A000A206F /* README.md */,
 				A7533BEF2441AF150065F777 /* project 1 wesplit */,
 				A7533BBE2441AF150065F777 /* project 2 guesstheflag */,
 				A7533BEE2441AF150065F777 /* project 3 technique project */,
 				A7533BED2441AF150065F777 /* project 4 */,
+				A718EE3E2441BBE5000A206F /* project 5 */,
+				A718EE402441BBE5000A206F /* project 6 */,
+				A718EE462441BBE5000A206F /* project 7 */,
+				A718EE422441BBE5000A206F /* project 8 */,
+				A718EE4A2441BBE5000A206F /* project 9 */,
+				A718EE362441BBE4000A206F /* project 10 */,
+				A718EE4C2441BBE5000A206F /* project 11 */,
+				A718EE382441BBE4000A206F /* project 12 */,
+				A718EE3C2441BBE5000A206F /* project 13 */,
+				A718EE342441BBE4000A206F /* project 14 */,
+				A718EE4E2441BBE5000A206F /* project 15 */,
+				A718EE2F2441BBE4000A206F /* project 16 */,
+				A718EE3A2441BBE4000A206F /* project 17 */,
+				A718EE482441BBE5000A206F /* project 18 */,
+				A718EE442441BBE5000A206F /* project 19 */,
+				A7533BD72441AF150065F777 /* Challenge 1 UnitConversions */,
 				A7533BB62441AF080065F777 /* 😃100DaysOfSwiftUINotes */,
 				A7533BB52441AF080065F777 /* Products */,
 			);
@@ -239,6 +407,7 @@
 		A7533BED2441AF150065F777 /* project 4 */ = {
 			isa = PBXGroup;
 			children = (
+				A718EE282441BB4A000A206F /* README.md */,
 			);
 			name = "project 4";
 			path = "../project 4";
