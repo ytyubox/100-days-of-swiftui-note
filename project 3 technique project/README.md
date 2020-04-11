@@ -1,3 +1,6 @@
+---
+tags: 100daysOfSwiftUI
+---
 #  Day 23 ~ 24
 
 
@@ -6,11 +9,17 @@
 In SwiftUI, all our views are trivial structs and are almost free to create. Think about it: if you make a struct that holds a single integer, the entire size of your struct is… that one integer. Nothing else. No surprise extra values inherited from parent classes, or grandparent classes, or great-grandparent classes, etc – they contain exactly what you can see and nothing more.
 
 By producing views that don’t mutate over time, SwiftUI encourages us to move to a more functional design approach: our views become simple, inert things that convert data into UI, rather than intelligent things that can grow out of control.
+![](https://i.imgur.com/2FWlwqY.png)
+
+![](https://i.imgur.com/Umic8Dk.png)
+
 
 ## What is behind the main SwiftUI view?
 
 Let me say this as clearly as I can: for SwiftUI developers, **there is nothing behind our view.** You shouldn’t try to make that white space turn red with weird hacks or workarounds, and you certainly shouldn’t try to reach outside of SwiftUI to do it.
+![](https://i.imgur.com/f6MtIv5.png)
 
+這個範例 resize Text, 使得 Text 的範圍變大
 ```swift
 Text("Hello World")
     .frame(maxWidth: .infinity, maxHeight: .infinity)
