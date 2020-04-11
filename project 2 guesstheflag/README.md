@@ -1,4 +1,8 @@
-#  Guess the flag
+
+---
+tags: 100daysOfSwiftUI
+---
+# Day 20 ~ 22 Project 2: Guess the flag
 resource: https://www.hackingwithswift.com/100/swiftui/20
 
 ## Part 1 six topics to work through, and you’ll meet VStack, Image, Alert, and more.
