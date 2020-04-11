@@ -94,6 +94,7 @@
 		A7533C032441AF150065F777 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A7533C042441AF150065F777 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A7533C052441AF150065F777 /* WeSplit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = WeSplit.xcodeproj; sourceTree = "<group>"; };
+		A7533C0B2441AF660065F777 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +114,7 @@
 				A7533BD72441AF150065F777 /* Challenge 1 UnitConversions */,
 				A7533BEF2441AF150065F777 /* project 1 wesplit */,
 				A7533BBE2441AF150065F777 /* project 2 guesstheflag */,
-				A7533BEE2441AF150065F777 /* project 3 NoProject */,
+				A7533BEE2441AF150065F777 /* project 3 technique project */,
 				A7533BED2441AF150065F777 /* project 4 */,
 				A7533BB62441AF080065F777 /* 😃100DaysOfSwiftUINotes */,
 				A7533BB52441AF080065F777 /* Products */,
@@ -243,12 +244,13 @@
 			path = "../project 4";
 			sourceTree = "<group>";
 		};
-		A7533BEE2441AF150065F777 /* project 3 NoProject */ = {
+		A7533BEE2441AF150065F777 /* project 3 technique project */ = {
 			isa = PBXGroup;
 			children = (
+				A7533C0B2441AF660065F777 /* README.md */,
 			);
-			name = "project 3 NoProject";
-			path = "../project 3 NoProject";
+			name = "project 3 technique project";
+			path = "../project 3 technique project";
 			sourceTree = "<group>";
 		};
 		A7533BEF2441AF150065F777 /* project 1 wesplit */ = {
