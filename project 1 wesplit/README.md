@@ -1,4 +1,7 @@
-#  Day 16~18 Wesplit
+---
+tags: 100daysOfSwiftUI
+---
+#  Day 16~18 project Wesplit
 
 https://www.hackingwithswift.com/100/swiftui/16
 
