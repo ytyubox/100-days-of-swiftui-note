@@ -1,7 +1,7 @@
 ---
 tags: 100daysOfSwiftUI
 ---
-#  Day 23 ~ 24
+#  Day 23 ~ 24 - Project 3 technique project
 
 
 ## Why does SwiftUI use structs for views?
