@@ -58,6 +58,32 @@ withAnimation {
 }
 ```
 ## Controlling the animation stack
+Animation modifier 是不可取代的, local modifier, 因此要注意作用域.
+```swift
+Butten
+ {enable.toggle()}
+.background(enabled ? Color.blue : Color.red)
+.clipShape(RoundedRectangle(cornerRadius: enabled ? 60 : 0))
+.animation(.default)
+```
 ## Animating gestures
+```swift
+.gesture(
+    DragGesture()
+        .onChanged { self.dragAmount = $0.translation }
+        .onEnded { _ in self.dragAmount = .zero }
+)
+```
+### Main animator
+```swift
+.animation(Animation.default.delay(Double(num) / 20))
+```
 ## Showing and hiding views with transitions
+使用 transition modifier 來宣告指定動畫改動
+
+transition doc: https://developer.apple.com/documentation/swiftui/anytransition
 ## Building custom transitions using ViewModifier
+
+自定義的 transtion: AnyTransition
+
+https://developer.apple.com/documentation/swiftui/anytransition/3090974-modifier
